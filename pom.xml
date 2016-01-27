@@ -9,8 +9,13 @@
         <!--<artifactId>swengb</artifactId><version>1.0-SNAPSHOT</version>-->
     <!--</parent>-->
 
+<<<<<<< HEAD
     <groupId>fhj.swengb</groupId>
     <artifactId>project</artifactId>
+=======
+    <groupId>fhj.swengb.project</groupId>
+    <artifactId>courseware</artifactId>
+>>>>>>> 28b145af6398435a1012139a873d591994d11913
     <name>fhj.swengb.project.courseware</name>
 
     <dependencies>
