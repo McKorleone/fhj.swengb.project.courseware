@@ -6,9 +6,21 @@ Graf, Karimova, Koerner
 
 ## Introduction
 
-Our Courseware project contains multiple database tables.
+The Courseware App is a project from the University of Applied Science FH Joanneum Graz.
+Our professor during the project was Dipl.-Ing. Robert Ladstaetter.
+
+## Table of Content
+
+1.) About the Coursware App
+2.) Tables
+3.) ER-Model
+
+### Courseware App
+
+Our Courseware App takes use of the CRUD functionality.
+The project contains multiple database tables.
 We use Student, Homework, Exam, Course, Lecture, and Project as tables.
-The table Course should be the main anchor for all our other table.
+The whole navigation through the Courseware App takes place on an easy to use interface after the start of the application.
 It is possible to export the databse entries from every table and the output can be stored as a file.
 Each table has the main CRUD features.
 
