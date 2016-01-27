@@ -20,5 +20,5 @@ The whole database is built out of 6 tables.
 
 ##ER-Model:
 
-![<ER-Model>](<https://at.owncube.com/index.php/apps/files/?dir=%2F&view=sharinglinks#/FH/Projekte/Projekt_SWENGB/Courseware%20ER-Model%201.3.png>)
+![<ER-Model>](<https://github.com/McKorleone/fhj.swengb.project.courseware/blob/courseware/Courseware%20ER-Model%201.3.png>)
 
