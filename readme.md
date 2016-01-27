@@ -1,11 +1,10 @@
 # Project Courseware
 
-
-![Stormtrooper](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
 Team Members:
 
 Graf, Karimova, Körner
+
+![Stormtrooper](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 ## Introduction
 
