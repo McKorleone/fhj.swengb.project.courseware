@@ -25,10 +25,10 @@ We use Student, Homework, Exam, Course, Lecture, and Project as tables.
 The whole navigation through the Courseware App takes place on an easy to use interface after the start of the application.
 For each entry that will be made on any table the Courseware App has the functionality of checking the user input.
 The user input will be checked if a user makes an update or creates an entry in the table.
-Another feature of the Courseware App is that each entry for itself can be delted or updated.
+Another feature of the Courseware App is that each entry for itself can be deleted or updated.
 
 If a user wants to export the data of a table he can use that function at every table.
-The crated file will be exported as a .csv file.
+The created file will be exported as a .csv file.
 
 ### 2.) Tables
 
@@ -41,9 +41,10 @@ The crated file will be exported as a .csv file.
 
 ### 3.) Worklog
 
-30h CRUD
+30h CRUD <\br>
 20h GUI
-100h for each table code
+80h for the Controller, Model concept
+10h copying our concept and adapting it to the other tables
 
 ### 4.) ER-Model:
 
