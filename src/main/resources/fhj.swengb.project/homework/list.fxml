@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.homework.HomeworkListController">
+    <top>
+        <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="600.0" text="Course " BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <TableView fx:id="homeworkView" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="360.0" prefWidth="517.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="columnHomeworkNr" prefWidth="42.0" text="ID" />
+                <TableColumn fx:id="columnHomeworkDescription" prefWidth="105.0" text="Description" />
+                <TableColumn fx:id="columnHomeworkDate" prefWidth="106.0" text="Date" />
+                <TableColumn fx:id="columnHomeworkDeadline" minWidth="0.0" prefWidth="76.0" text="Deadline" />
+                <TableColumn fx:id="columnHomeworkPoints" prefWidth="103.0" text="Points" />
+            </columns>
+        </TableView>
+    </center>
+    <left>
+        <GridPane prefHeight="361.0" prefWidth="82.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="homeworkCreateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkCreateButtonTrigger" text="Create" />
+                <Button fx:id="homeworkUpdateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkUpdateButtonTrigger" text="Update" GridPane.rowIndex="1" />
+                <Button fx:id="homeworkDeleteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkDeleteButtonTrigger" text="Delete" GridPane.rowIndex="2" />
+                <Button fx:id="homeworkReadButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkReadButtonTrigger" text="Read" GridPane.rowIndex="3" />
+                <Button fx:id="homeworkExportButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkExportButtonTrigger" text="Export" GridPane.rowIndex="4" />
+                <!--<Button fx:id="courseQuery1Button" onAction="#courseQuery1ButtonTrigger" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Query 1" GridPane.rowIndex="5" />-->
+                <!--<Button fx:id="courseQuery2Button" onAction="#courseQuery2ButtonTrigger" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Query 2" GridPane.rowIndex="6" />-->
+            </children>
+        </GridPane>
+    </left>
+    <bottom>
+        <Label fx:id="homeworkQueryOutput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="600.0" text="" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>
