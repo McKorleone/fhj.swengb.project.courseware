@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.information.InformationController">
+    <center>
+
+
+
+    </center>
+   <center>
+      <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ccccb3;" text="&#10;&#10;Courseware Project&#10;&#10;FH JOANNEUM Graz&#10;IMA14 SWENGB Course by Dipl. Ing. Ladstätter&#10;3. Semester&#10;&#10;Students: &#10;Felix Graf&#10;Elsa Karimova&#10;Paul Körner" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+   </center>
+   <top>
+      <TextField alignment="CENTER" style="-fx-background-color: #ff4d4d;" text="Information" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+   </top>
+</BorderPane>

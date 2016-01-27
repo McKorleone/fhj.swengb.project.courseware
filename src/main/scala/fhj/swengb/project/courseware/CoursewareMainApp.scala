@@ -8,6 +8,7 @@ import javafx.scene.control.{Label, Button}
 import javafx.scene.{Scene, Parent}
 import javafx.stage.Stage
 import scala.util.control.NonFatal
+import fhj.swengb.project.courseware.controllers.information.InformationController
 import fhj.swengb.project.courseware.controllers.course.CourseListController
 import fhj.swengb.project.courseware.controllers.exam.ExamListController
 import fhj.swengb.project.courseware.controllers.homework.HomeworkListController
@@ -94,6 +95,7 @@ class CoursewareMainAppController extends BaseController {
   val loaderHomeworkPath = "/fhj.swengb.project/homework/list.fxml"
   val loaderProjectPath = "/fhj.swengb.project/project/list.fxml"
   val loaderExamPath = "/fhj.swengb.project/exam/list.fxml"
+  val loaderInformationPath = "/fhj.swengb.project/information/page.fxml"
 
   /**
     * Init function of the controller
@@ -109,7 +111,7 @@ class CoursewareMainAppController extends BaseController {
 
   def exitButtonTrigger(): Unit = sys.exit()
 
-  def informationButtonTrigger(): Unit = {}
+  def informationButtonTrigger(): Unit = openWindow(loaderInformationPath, cssFilePath, InformationController)
 
   def courseButtonTrigger(): Unit = openWindow(loaderCoursePath, cssFilePath, CourseListController)
 
