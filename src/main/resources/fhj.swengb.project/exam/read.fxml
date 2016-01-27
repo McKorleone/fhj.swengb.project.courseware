@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.exam.ExamReadController">
+<BorderPane id = "purple_background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.exam.ExamReadController">
     <center>
         <GridPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="227.0" prefWidth="400.0" BorderPane.alignment="CENTER">
             <columnConstraints>
@@ -19,18 +19,18 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="ID" />
-                <Label layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Description" GridPane.rowIndex="1" />
-                <Label layoutX="10.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start Time" GridPane.rowIndex="2" />
-                <Label layoutX="10.0" layoutY="70.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End Time" GridPane.rowIndex="3" />
-                <Label layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="41.0" prefWidth="176.0" text="Max Points" GridPane.rowIndex="5" />
-                <Label fx:id="idExam" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" />
-                <Label fx:id="descriptionExam" layoutX="110.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <Label fx:id="startExam" layoutX="110.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                <Label fx:id="endExam" layoutX="110.0" layoutY="70.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                <Label fx:id="dateExam" layoutX="110.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                <Label fx:id="pointsExam" layoutX="110.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                <Label layoutX="110.0" layoutY="190.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Date" GridPane.rowIndex="4" />
+                <Label id = "textfield_standard" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="ID:" />
+                <Label id = "textfield_standard" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Description:" GridPane.rowIndex="1" />
+                <Label id = "textfield_standard" layoutX="10.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start Time:" GridPane.rowIndex="2" />
+                <Label id = "textfield_standard" layoutX="10.0" layoutY="70.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End Time:" GridPane.rowIndex="3" />
+                <Label id = "textfield_standard" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="41.0" prefWidth="176.0" text="Max Points:" GridPane.rowIndex="5" />
+                <Label id = "textfield_standard" fx:id="idExam" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" />
+                <Label id = "textfield_standard" fx:id="descriptionExam" layoutX="110.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label id = "textfield_standard" fx:id="startExam" layoutX="110.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label id = "textfield_standard" fx:id="endExam" layoutX="110.0" layoutY="70.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label id = "textfield_standard" fx:id="dateExam" layoutX="110.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label id = "textfield_standard" fx:id="pointsExam" layoutX="110.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Label id = "textfield_standard" layoutX="110.0" layoutY="190.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Date" GridPane.rowIndex="4" />
             </children>
         </GridPane>
     </center>

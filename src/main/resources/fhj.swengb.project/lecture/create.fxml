@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.lecture.LectureCreateController">
+<Pane id = "purple_background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.lecture.LectureCreateController">
     <children>
         <GridPane layoutY="70.0" prefHeight="224.0" prefWidth="500.0">
             <columnConstraints>
@@ -22,13 +22,13 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Name" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start Time" GridPane.rowIndex="1" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End Time" GridPane.rowIndex="2" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Date" GridPane.rowIndex="3" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Room" GridPane.rowIndex="4" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Lecturer" GridPane.rowIndex="5" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Points" GridPane.rowIndex="6" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Name:" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start Time:" GridPane.rowIndex="1" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End Time:" GridPane.rowIndex="2" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Date:" GridPane.rowIndex="3" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Room:" GridPane.rowIndex="4" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Lecturer:" GridPane.rowIndex="5" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Points:" GridPane.rowIndex="6" />
                 <TextField fx:id="nameLecture" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="32.0" prefWidth="268.0" GridPane.columnIndex="1" />
                 <TextField fx:id="startLecture" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <TextField fx:id="endLecture" prefHeight="38.0" prefWidth="350.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
@@ -103,7 +103,7 @@
         </GridPane>
         <Pane layoutY="10.0" prefHeight="40.0" prefWidth="500.0">
             <children>
-                <Label fx:id="invalidInput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="500.0" text="" />
+                <Label id = "text_big" fx:id="invalidInput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="500.0" text="create lecture" />
             </children>
         </Pane>
         <GridPane layoutY="324.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="500.0">
@@ -115,8 +115,8 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button fx:id="createLectureButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#createLectureButtonTrigger" text="Create" />
-                <Button fx:id="cancelButton" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cancelButtonTrigger" text="Cancel" GridPane.columnIndex="1" />
+                <Button id = "button_style" fx:id="createLectureButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#createLectureButtonTrigger" text="Create" />
+                <Button id = "button_style" fx:id="cancelButton" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cancelButtonTrigger" text="Cancel" GridPane.columnIndex="1" />
             </children>
         </GridPane>
     </children>

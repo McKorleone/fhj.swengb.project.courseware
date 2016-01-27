@@ -3,9 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="400.0" maxWidth="700.0" minHeight="400.0" minWidth="700.0" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.student.StudentListController">
+<BorderPane id = "purple_background" maxHeight="400.0" maxWidth="700.0" minHeight="400.0" minWidth="700.0" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.student.StudentListController">
     <top>
-        <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="600.0" text="Student " BorderPane.alignment="CENTER" />
+        <Label id = "text_big" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="600.0" text="Student " BorderPane.alignment="CENTER" />
     </top>
     <center>
         <TableView fx:id="studentView" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="321.0" prefWidth="617.0" BorderPane.alignment="CENTER">
@@ -35,17 +35,17 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button fx:id="studentCreateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentCreateButtonTrigger" text="Create" />
-                <Button fx:id="studentReadButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentReadButtonTrigger" text="Read" GridPane.rowIndex="1" />
-                <Button fx:id="studentUpdateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentUpdateButtonTrigger" text="Update" GridPane.rowIndex="2" />
-                <Button fx:id="studentDeleteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentDeleteButtonTrigger" text="Delete" GridPane.rowIndex="3" />
-                <Button fx:id="studentExportButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentExportButtonTrigger" text="Export" GridPane.rowIndex="4" />
+                <Button id = "button_style" fx:id="studentCreateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentCreateButtonTrigger" text="Create" />
+                <Button id = "button_style" fx:id="studentReadButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentReadButtonTrigger" text="Read" GridPane.rowIndex="1" />
+                <Button id = "button_style" fx:id="studentUpdateButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentUpdateButtonTrigger" text="Update" GridPane.rowIndex="2" />
+                <Button id = "button_style" fx:id="studentDeleteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentDeleteButtonTrigger" text="Delete" GridPane.rowIndex="3" />
+                <Button id = "button_style" fx:id="studentExportButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentExportButtonTrigger" text="Export" GridPane.rowIndex="4" />
                 <!--<Button fx:id="studentQuery1Button" onAction="#studentQuery1ButtonTrigger" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Query 1" GridPane.rowIndex="5" />-->
                 <!--<Button fx:id="studentQuery2Button" onAction="#studentQuery2ButtonTrigger" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Query 2" GridPane.rowIndex="6" />-->
             </children>
         </GridPane>
     </left>
     <bottom>
-        <Label fx:id="studentQueryOutput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="600.0" text="" BorderPane.alignment="CENTER" />
+        <Label id = "text_big" fx:id="studentQueryOutput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="600.0" text="" BorderPane.alignment="CENTER" />
     </bottom>
 </BorderPane>

@@ -4,7 +4,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.CoursewareMainAppController">
+<BorderPane id = "purple_background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.CoursewareMainAppController">
    <center>
       <GridPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="245.0" prefWidth="402.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -19,17 +19,17 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="courseButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#courseButtonTrigger" text="Courses" />
-            <Button fx:id="lectureButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#lectureButtonTrigger" text="Lectures" GridPane.rowIndex="1" />
-            <Button fx:id="homeworkButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkButtonTrigger" text="Homework" GridPane.rowIndex="2" />
-            <Button fx:id="projectButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#projectButtonTrigger" text="Projects" GridPane.rowIndex="3" />
-            <Button fx:id="examButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#examButtonTrigger" text="Exams" GridPane.rowIndex="4" />
-            <Button fx:id="studentButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonTrigger" text="Students" GridPane.rowIndex="5" />
+            <Button id = "button_style" fx:id="courseButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#courseButtonTrigger" text="Courses" />
+            <Button id = "button_style" fx:id="lectureButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#lectureButtonTrigger" text="Lectures" GridPane.rowIndex="1" />
+            <Button id = "button_style" fx:id="homeworkButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#homeworkButtonTrigger" text="Homework" GridPane.rowIndex="2" />
+            <Button id = "button_style" fx:id="projectButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#projectButtonTrigger" text="Projects" GridPane.rowIndex="3" />
+            <Button id = "button_style" fx:id="examButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#examButtonTrigger" text="Exams" GridPane.rowIndex="4" />
+            <Button id = "button_style" fx:id="studentButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#studentButtonTrigger" text="Students" GridPane.rowIndex="5" />
          </children>
       </GridPane>
    </center>
    <top>
-      <Label fx:id="courseware" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="600.0" text="Courseware" BorderPane.alignment="CENTER" />
+      <Label id = "text_big" fx:id="courseware" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="600.0" text="Courseware" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
       <GridPane BorderPane.alignment="CENTER">
@@ -41,8 +41,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="exitButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exitButtonTrigger" text="Exit" />
-            <Button fx:id="informationButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#informationButtonTrigger" text="Information" GridPane.columnIndex="1" />
+            <Button id = "button_style" fx:id="exitButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exitButtonTrigger" text="Exit" />
+            <Button id = "button_style" fx:id="informationButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#informationButtonTrigger" text="Information" GridPane.columnIndex="1" />
          </children>
       </GridPane>
    </bottom>
