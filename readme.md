@@ -1,3 +1,5 @@
+![Stormtrooper](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
 # Project Courseware
 
 Team Members:
@@ -11,12 +13,12 @@ Our professor during the project was Dipl.-Ing. Robert Ladstaetter.
 
 ## Table of Content
 
-1.) About the Coursware App
-2.) Tables
-3.) Worklog
-4.) ER-Model
+1. About the Coursware App
+2. Tables
+3. Worklog
+4. ER-Model
 
-### 1.) Courseware App
+### 1. Courseware App
 
 Our Courseware App takes use of the CRUD functionality.
 The project contains multiple database tables.
@@ -30,23 +32,23 @@ Another feature of the Courseware App is that each entry for itself can be delet
 If a user wants to export the data of a table he can use that function at every table.
 The created file will be exported as a .csv file.
 
-### 2.) Tables
+### 2. Tables
 
-1. Course
-2. Student
-3. Lecture
-4. Homework
-5. Exam
-6. Project
++ Course
++ Student
++ Lecture
++ Homework
++ Exam
++ Project
 
-### 3.) Worklog
+### 3. Worklog
 
-30h CRUD <\br>
-20h GUI
-80h for the Controller, Model concept
-10h copying our concept and adapting it to the other tables
++ 30h CRUD <\br>
++ 20h GUI
++ 80h for the Controller, Model concept
++ 10h copying our concept and adapting it to the other tables
 
-### 4.) ER-Model:
+### 4. ER-Model:
 
 ![<ER-Model>](<https://github.com/McKorleone/fhj.swengb.project.courseware/blob/courseware/Courseware%20ER-Model%201.3.png>)
 
