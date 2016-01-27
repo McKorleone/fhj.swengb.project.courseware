@@ -1,15 +1,13 @@
-![Stormtrooper](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
 # Project Courseware
 
 Team Members:
 
-Graf, Karimova, Koerner
+Graf, Karimova, Körner
 
 ## Introduction
 
 The Courseware App is a project from the University of Applied Science FH Joanneum Graz.
-Our professor during the project was Dipl.-Ing. Robert Ladstaetter.
+Our professor during the project was Dipl.-Ing. Robert Ladstätter.
 
 ## Table of Content
 
@@ -20,7 +18,7 @@ Our professor during the project was Dipl.-Ing. Robert Ladstaetter.
 
 ### 1. Courseware App
 
-Our Courseware App takes use of the CRUD functionality.
+Our Courseware App provides CRUD functionality.
 The project contains multiple database tables.
 We use Student, Homework, Exam, Course, Lecture, and Project as tables.
 
@@ -41,9 +39,9 @@ The created file will be exported as a .csv file.
 + Exam
 + Project
 
-### 3. Worklog
+### 3. Teamworklog
 
-+ 30h CRUD <\br>
++ 30h CRUD
 + 20h GUI
 + 80h for the Controller, Model concept
 + 10h copying our concept and adapting it to the other tables
