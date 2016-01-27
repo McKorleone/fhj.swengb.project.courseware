@@ -32,6 +32,9 @@ Another feature of the Courseware App is that each entry for itself can be delet
 If a user wants to export the data of a table he can use that function at every table.
 The created file will be exported as a .csv file.
 
+![Example 1](<https://github.com/McKorleone/fhj.swengb.project.courseware/blob/courseware/Example_1.png>)
+![Example 2](<https://github.com/McKorleone/fhj.swengb.project.courseware/blob/courseware/Example_2.png>)
+
 ### 2. Tables
 
 + Course

@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.course.CourseCreateController">
+<Pane id = "purple_background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.courseware.controllers.course.CourseCreateController">
     <children>
         <GridPane layoutY="70.0" prefHeight="160.0" prefWidth="500.0">
             <columnConstraints>
@@ -20,11 +20,11 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Description" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Semester" GridPane.rowIndex="1" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start" GridPane.rowIndex="2" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End" GridPane.rowIndex="3" />
-                <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Points" GridPane.rowIndex="4" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Description:" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Semester:" GridPane.rowIndex="1" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Start:" GridPane.rowIndex="2" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="End:" GridPane.rowIndex="3" />
+                <Label id = "textfield_standard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Points:" GridPane.rowIndex="4" />
                 <TextField fx:id="descriptionCourse" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="32.0" prefWidth="268.0" GridPane.columnIndex="1" />
                 <TextField fx:id="semesterCourse" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <TextField fx:id="pointsCourse" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="4" />
@@ -83,7 +83,7 @@
         </GridPane>
         <Pane layoutY="10.0" prefHeight="40.0" prefWidth="500.0">
             <children>
-                <Label fx:id="invalidInput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="500.0" text="" />
+                <Label id = "text_big" fx:id="invalidInput" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="500.0" text="create course" />
             </children>
         </Pane>
         <GridPane layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="500.0">
@@ -95,8 +95,8 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button fx:id="createCourseButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#createCourseButtonTrigger" text="Create" />
-                <Button fx:id="cancelButton" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#cancelButtonTrigger" mnemonicParsing="false" text="Cancel" GridPane.columnIndex="1" />
+                <Button id = "button_style" fx:id="createCourseButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#createCourseButtonTrigger" text="Create" />
+                <Button id = "button_style" fx:id="cancelButton" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#cancelButtonTrigger" mnemonicParsing="false" text="Cancel" GridPane.columnIndex="1" />
             </children>
         </GridPane>
     </children>
