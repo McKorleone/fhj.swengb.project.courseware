@@ -6,10 +6,15 @@ Graf, Karimova, Koerner
 
 ## Introduction
 
-We built a Courseware Application in which Database entries can be made.
-The whole database is built out of 6 tables.
+Our Courseware project contains multiple database tables.
+We use Student, Homework, Exam, Course, Lecture, and Project as tables.
+The table Course should be the main anchor for all our other table.
+It is possible to export the databse entries from every table and the output can be stored as a file.
+Each table has the main CRUD features.
+
 
 ### Tables
+
 1. Course
 2. Student
 3. Lecture
